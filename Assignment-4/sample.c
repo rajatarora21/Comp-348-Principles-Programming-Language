@@ -10,7 +10,7 @@ int main(){
 	/* the following code is commented out
  int a = 12; // nested comment
  /* // nested nested comment
- int b = a++; */
+ int b = a++; */hello there
 */
 	
 }
