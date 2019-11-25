@@ -34,7 +34,7 @@ int main()
 				{
 					c=fgetc(filepointer);
 					if(c=='*')
-						tempValue=1;
+						tempValue=tempValue+1;
 					else if(c=='/')
 						tempValue2=1;
 				}	
@@ -42,7 +42,7 @@ int main()
 				{
 					c=fgetc(filepointer);
 					if(c=='/')
-						tempValue=0;
+						tempValue=tempValue-1;
 				}
 				else if((c=='\n')&&(tempValue2==1))
 					tempValue2=0;
